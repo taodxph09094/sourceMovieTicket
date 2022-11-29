@@ -29,6 +29,7 @@ export default function ListSeat() {
   });
   const dispatch = useDispatch();
 
+  console.log(listSeat);
   useEffect(() => {
     // khởi tạo event lắng nghe "resize"
     window.addEventListener("resize", handleResize);
@@ -118,7 +119,7 @@ export default function ListSeat() {
     <main className={classes.listSeat}>
       {/* thông tin phim */}
       <div className={classes.info_CountDown}>
-        <div className={classes.infoTheater}>
+        {/* <div className={classes.infoTheater}>
           <img
             src={logoTheater[thongTinPhim?.tenCumRap.slice(0, 3).toUpperCase()]}
             alt="phim"
@@ -130,7 +131,7 @@ export default function ListSeat() {
               thongTinPhim && formatDate(thongTinPhim.ngayChieu).dayToday
             } - ${thongTinPhim?.gioChieu} - ${thongTinPhim?.tenRap}`}</p>
           </div>
-        </div>
+        </div> */}
         <div className={classes.countDown}>
           <p className={classes.timeTitle}>Thời gian giữ ghế</p>
           <Countdown />

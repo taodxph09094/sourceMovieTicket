@@ -6,14 +6,19 @@ export const GET_LISTSEAT_FAIL = "GET_LISTSEAT_FAIL"
 
 // selecting seat
 export const INIT_DATA = "INIT_DATA"
+
+
+export const SET_ALERT_OVER10 = "SET_ALERT_OVER10"
 export const CHANGE_LISTSEAT = "CHANGE_LISTSEAT"
+
+
 export const SET_DATA_PAYMENT = "SET_DATA_PAYMENT"
 export const SET_READY_PAYMENT = "SET_READY_PAYMENT"
 export const TIMEOUT = "TIMEOUT"
 export const SET_STEP = "SET_STEP"
 export const RESET_DATA_BOOKTICKET = "RESET_DATA_BOOKTICKET"
 export const RESET_ALERT_OVER10 = "RESET_ALERT_OVER10"
-export const SET_ALERT_OVER10 = "SET_ALERT_OVER10"
+
 
 // booking ticked
 export const BOOK_TICKET_REQUEST = "BOOK_TICKET_REQUEST"

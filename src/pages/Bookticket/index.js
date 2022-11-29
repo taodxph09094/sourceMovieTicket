@@ -76,7 +76,7 @@ export default function Index() {
       ) : (
         <Desktop key={refreshKey + 1} />
       )}
-      <Modal />
+      {/* <Modal /> */}
     </div>
   );
 }
